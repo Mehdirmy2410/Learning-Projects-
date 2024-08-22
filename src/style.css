@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply bg-white rounded-md overflow-hidden shadow-md hover:shadow-lg relative
+}
+.badges {
+    @apply bg-gray-200 text-gray-400 text-xs md:font-semibold rounded-full p-1 md:p-2 hover:shadow-inner transform md:hover:scale-110
+}
+.button {
+    @apply bg-xboxgreen text-black text-sm font-semibold rounded-full p-2
+}
+.tag {
+    @apply inline-block bg-xboxgreen text-white text-lg pt-2 md:pt-4 font-semibold rounded-md p-3 md:p-5 hover:shadow-inner transform hover:scale-110 hover:bg-opacity-50 transition ease-out duration-300 cursor-pointer
+}
+
+
